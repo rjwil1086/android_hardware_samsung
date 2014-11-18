@@ -21,7 +21,10 @@ LOCAL_CFLAGS :=
 
 LOCAL_MODULE:= libril
 
+<<<<<<< HEAD
 LOCAL_LDLIBS +=
+=======
+>>>>>>> 6a65e85... hardware/samsung: Remove -lpthread from RIL makefiles
 
 include $(BUILD_SHARED_LIBRARY)
 
@@ -43,8 +46,11 @@ LOCAL_CFLAGS :=
 
 LOCAL_MODULE:= libril_static
 
+<<<<<<< HEAD
 LOCAL_LDLIBS +=
 
+=======
+>>>>>>> 6a65e85... hardware/samsung: Remove -lpthread from RIL makefiles
 include $(BUILD_STATIC_LIBRARY)
 endif # ANDROID_BIONIC_TRANSITION
 endif # BOARD_PROVIDES_LIBRIL
