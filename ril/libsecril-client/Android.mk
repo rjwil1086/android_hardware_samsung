@@ -17,9 +17,6 @@ LOCAL_CFLAGS += -DHAVE_PTHREADS
 
 LOCAL_MODULE:= libsecril-client
 LOCAL_PRELINK_MODULE := false
-<<<<<<< HEAD
 LOCAL_LDLIBS +=
-=======
->>>>>>> 6a65e85... hardware/samsung: Remove -lpthread from RIL makefiles
 
 include $(BUILD_SHARED_LIBRARY)
